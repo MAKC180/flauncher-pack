@@ -1,0 +1,30 @@
+#
+# Noooo my pretty particle-e-es. How rude.
+hideAllBiomeParticles = false
+#
+# # These are global biome particle settings.
+# All of them can be disabled by setting particles to minimal in vanilla settings as well.
+# If you experience lag you might also want to try the minimize options, they make the biomes have less particles instead of removing them completely.
+#
+# Whether to hide leaf particles e.g. in the silver birch biome.
+hideBiomeLeafParticles = false
+# Whether to hide ambience particles e.g. in the anthocyanin forest biome.
+hideBiomeAmbienceParticles = false
+minimizeBiomeAmbienceParticles = false
+# Whether to hide biome's custom weather particles e.g. in desolate ice fields.
+hideCustomBiomeWeatherParticles = false
+minimizeCustomBiomeWeatherParticles = false
+#
+# # Biome-specific
+# Whether to hide the dark fog in desolate ice fields.
+hideDesolateIceFieldsFog = false
+#
+# # Dev stuff, you probably shouldn't care/touch
+# Fog direction change minimal bound in ticks
+# Default: 30000
+# Range: > 1
+snowDirectionChangeTimeMin = 30000
+# Random amount added to the direction change timer in ticks
+# Default: 60000
+# Range: > 1
+snowDirectionChangeTimeAddedRange = 60000

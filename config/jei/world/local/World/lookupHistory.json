@@ -1,0 +1,18 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"productivetrees:pollen_sifter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"productivetrees:wood_worker"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"productivetrees:sawmill"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:empty_schematic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aeronautics:white_envelope"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:linked_controller","components":{"create:linked_controller_items":[{"slot":0,"item":{"id":"minecraft:birch_planks","count":1}},{"slot":1,"item":{"id":"minecraft:birch_planks","count":1}},{"slot":2,"item":{"id":"minecraft:cobblestone","count":1}},{"slot":3,"item":{"id":"minecraft:cobblestone","count":1}},{"slot":4,"item":{"id":"minecraft:birch_planks","count":1}},{"slot":5,"item":{"id":"minecraft:cobblestone","count":1}},{"slot":6,"item":{"id":"minecraft:cobblestone","count":1}},{"slot":7,"item":{"id":"minecraft:birch_planks","count":1}},{"slot":8,"item":{"id":"minecraft:birch_planks","count":1}},{"slot":11,"item":{"id":"minecraft:birch_planks","count":1}}]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:iron_handle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:honey_glue","components":{"minecraft:damage":13}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"toughasnails:wool_boots","components":{"minecraft:dyed_color":{"rgb":16777215,"show_in_tooltip":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:diamond_hoe","components":{"overgeared:forging_quality":"well"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:plunger_launcher"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potato_cannon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:red_portable_engine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:rotation_speed_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"netherman:chance_totem"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

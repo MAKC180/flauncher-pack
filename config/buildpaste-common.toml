@@ -1,0 +1,6 @@
+#Show a message showcasing how to paste a build when entering a world
+showEntryMessage = true
+#Stores the times the player joined using Buildpaste. This data is NOT sent to a server but instead only to show a Dismiss message for the default text message when joining
+# Default: 0
+# Range: 0 ~ 1000000
+joinCounter = 0
