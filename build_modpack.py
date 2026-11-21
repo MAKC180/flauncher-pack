@@ -1,6 +1,6 @@
 # build_modpack.py — собирает сборку для лаунчера.
 # Что делает:
-#   1) копирует моды и настройки из CurseForge сюда (папки mods и config);
+#   1) копирует моды из CurseForge сюда (папка mods);
 #   2) для каждого файла считает «отпечаток» (SHA-1) и записывает список в modpack.json.
 # Запускать каждый раз, когда поменял моды в CurseForge.
 
@@ -11,7 +11,7 @@ import hashlib
 
 # ---------- Настройки ----------
 CURSEFORGE_DIR = r"C:\Users\user\curseforge\minecraft\Instances\F"  # откуда берём моды
-FOLDERS = ["mods", "config"]   # какие папки переносим в сборку
+FOLDERS = ["mods"]   # какие папки переносим в сборку (config не раздаём — каждый настраивает сам)
 MC_VERSION = "1.21.1"
 NEOFORGE_VERSION = "21.1.265"
 

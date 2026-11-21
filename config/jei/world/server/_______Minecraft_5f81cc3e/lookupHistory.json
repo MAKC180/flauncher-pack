@@ -1,5 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"minecraft:leather_chestplate","components":{"minecraft:custom_name":"{\"translate\":\"magistuarmory.withsurcoat.white\",\"with\":[\"Кожаная куртка\"]}","minecraft:banner_patterns":[{"pattern":"minecraft:straight_cross","color":"black"}],"minecraft:base_color":"white"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"magistuarmory:griffin_decoration"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
