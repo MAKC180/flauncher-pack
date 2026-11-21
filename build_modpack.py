@@ -44,7 +44,8 @@ for folder in FOLDERS:
             if name.endswith(".jar"):
                 shutil.copy2(os.path.join(source, name), target)
     else:
-        shutil.copytree(source, target)
+        # Временные папки модов (кэш) не берём — моды создают их сами
+        shutil.copytree(source, target, ignore=shutil.ignore_patterns("cache", ".archive-unpack"))
     print("Скопировано:", folder)
 
 # 2) Составляем список всех файлов с отпечатками
