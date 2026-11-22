@@ -3,6 +3,11 @@
   "neoforge": "21.1.265",
   "files": [
     {
+      "path": "mods/AdvancedPeripherals-1.21.1-0.8.2a.jar",
+      "sha1": "c5ec43be7209c5f74b27bab0df51979f18c4d02f",
+      "size": 1681254
+    },
+    {
       "path": "mods/Aquaculture-1.21.1-2.7.21.jar",
       "sha1": "93c2043c6a5cfbfbfba93321d044bc61d8a6547b",
       "size": 605949
@@ -106,11 +111,6 @@
       "path": "mods/Paraglider-neoforge-21.1.5.jar",
       "sha1": "39043f24e897fade07a138bb8d60bfe08d8103b1",
       "size": 658184
-    },
-    {
-      "path": "mods/PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar",
-      "sha1": "b1ee96cfefa36e1c05aaab8e92bfb3f9ae927d15",
-      "size": 5307768
     },
     {
       "path": "mods/PresenceFootsteps-1.21.1-1.12.0-beta.1-1.21NeoForge.jar",
@@ -231,6 +231,11 @@
       "path": "mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar",
       "sha1": "ed43c962c5162ffc660e61329a65ad6a46da1884",
       "size": 3662294
+    },
+    {
+      "path": "mods/cc-tweaked-1.21.1-forge-1.113.1.jar",
+      "sha1": "cc857f01404a0b57bb1246e79dea9f66b96bfa76",
+      "size": 3094722
     },
     {
       "path": "mods/cc-tweaked-1.21.1-forge-1.121.0.jar",
@@ -581,11 +586,6 @@
       "path": "mods/sable-neoforge-1.21.1-2.0.3.jar",
       "sha1": "f3ba9a497122ba29d9e94ebe6f9a3a3aaa5fa756",
       "size": 12889000
-    },
-    {
-      "path": "mods/sablecollisiondamage-1.0.8.jar",
-      "sha1": "ea36294547303f823c742619946db77b5cc7b279",
-      "size": 42942
     },
     {
       "path": "mods/sids_epic_emotez_1.5.jar",
