@@ -2,6 +2,7 @@
 # Что делает:
 #   1) копирует моды из CurseForge сюда (папка mods);
 #   2) для каждого файла считает «отпечаток» (SHA-1) и записывает список в modpack.json.
+#   3) добавляет в modpack.json список модов, которые можно выключить (из optional_mods.json).
 # Запускать каждый раз, когда поменял моды в CurseForge.
 
 import os
@@ -64,13 +65,35 @@ for folder in FOLDERS:
 
 files.sort(key=lambda f: f["path"])
 
+# 3) Моды, которые игрок может выключить в лаунчере (кнопка «Моды»).
+#    Список ведётся вручную в optional_mods.json: название и начало имени файла.
+#    По началу имени, а не по полному — чтобы после обновления мода (новая версия в имени)
+#    ничего не пришлось менять.
+with open(os.path.join(PACK_DIR, "optional_mods.json"), "r", encoding="utf-8") as f:
+    optional_list = json.load(f)
+
+optional = []
+for entry in optional_list:
+    found = []
+    for file in files:
+        name = file["path"][len("mods/"):]   # "mods/jei-1.21.jar" -> "jei-1.21.jar"
+        for start in entry["files"]:
+            if name.startswith(start):
+                found.append(file["path"])
+    if found:
+        optional.append({"name": entry["name"], "files": found})
+    else:
+        print("ВНИМАНИЕ: не нашёл в сборке мод для «" + entry["name"] + "» — его не будет в списке")
+
 modpack = {
     "minecraft": MC_VERSION,
     "neoforge": NEOFORGE_VERSION,
     "files": files,
+    "optional": optional,
 }
 
 with open(os.path.join(PACK_DIR, "modpack.json"), "w", encoding="utf-8") as f:
     json.dump(modpack, f, indent=2, ensure_ascii=False)
 
 print("Готово! Файлов в сборке:", len(files))
+print("Модов, которые можно выключить:", len(optional))

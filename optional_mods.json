@@ -1,0 +1,22 @@
+[
+  {"name": "Distant Horizons — дальняя прорисовка", "files": ["DistantHorizons"]},
+  {"name": "Xaero's Minimap — миникарта", "files": ["xaerominimap"]},
+  {"name": "Xaero's World Map — карта мира", "files": ["xaeroworldmap"]},
+  {"name": "Simple Voice Chat — голосовой чат", "files": ["voicechat"]},
+  {"name": "JEI — рецепты предметов", "files": ["jei"]},
+  {"name": "Jade — подсказка, на что смотришь", "files": ["Jade"]},
+  {"name": "AppleSkin — сытость еды", "files": ["appleskin"]},
+  {"name": "Dynamic Surroundings — звуки окружения", "files": ["dynamicsurroundings"]},
+  {"name": "Sound Physics — эхо и звук через стены", "files": ["sound-physics-remastered"]},
+  {"name": "Presence Footsteps — звуки шагов", "files": ["PresenceFootsteps", "pfsable"]},
+  {"name": "Particular — дополнительные частицы", "files": ["particular"]},
+  {"name": "Stellar View — красивое небо", "files": ["Stellar View"]},
+  {"name": "Not Enough Animations — анимации игрока", "files": ["notenoughanimations"]},
+  {"name": "Visual Health — здоровье над мобами", "files": ["visualhealth"]},
+  {"name": "Dynamic Brightness — плавная яркость", "files": ["DynamicBrightness"]},
+  {"name": "Better Advancements — окно достижений", "files": ["BetterAdvancements"]},
+  {"name": "Build Guide — разметка для постройки", "files": ["BuildGuide"]},
+  {"name": "Mouse Tweaks — удобная мышь в инвентаре", "files": ["MouseTweaks"]},
+  {"name": "Epic Death Screen — экран смерти", "files": ["epicdeathscreen"]},
+  {"name": "Visual Keybinder — схема клавиш", "files": ["visual_keybinder"]}
+]
