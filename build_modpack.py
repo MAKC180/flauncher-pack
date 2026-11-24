@@ -15,6 +15,10 @@ CURSEFORGE_DIR = r"C:\Users\user\curseforge\minecraft\Instances\F"  # откуд
 FOLDERS = ["mods"]   # какие папки переносим в сборку (config не раздаём — каждый настраивает сам)
 MC_VERSION = "1.21.1"
 NEOFORGE_VERSION = "21.1.265"
+# Адрес сервера: лаунчер показывает, включён ли он и кто на нём играет.
+# Адрес, который начинается с "26.", — это Radmin VPN: тогда лаунчер ещё проверяет, включён ли Radmin.
+SERVER_NAME = "Сервер Minecraft"
+SERVER_ADDRESS = "26.1.82.220:25565"
 
 # Папка, где лежит этот скрипт (= папка сборки)
 PACK_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -90,6 +94,7 @@ modpack = {
     "neoforge": NEOFORGE_VERSION,
     "files": files,
     "optional": optional,
+    "server": {"name": SERVER_NAME, "address": SERVER_ADDRESS},
 }
 
 with open(os.path.join(PACK_DIR, "modpack.json"), "w", encoding="utf-8") as f:
