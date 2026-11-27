@@ -666,70 +666,9 @@
       ]
     },
     {
-      "name": "Xaero's Minimap — миникарта",
-      "files": [
-        "mods/xaerominimap-neoforge-1.21.1-26.4.2.jar"
-      ]
-    },
-    {
-      "name": "Xaero's World Map — карта мира",
-      "files": [
-        "mods/xaeroworldmap-neoforge-1.21.1-1.44.2.jar"
-      ]
-    },
-    {
-      "name": "Simple Voice Chat — голосовой чат",
-      "files": [
-        "mods/voicechat-neoforge-1.21.1-2.6.22.jar"
-      ]
-    },
-    {
-      "name": "JEI — рецепты предметов",
-      "files": [
-        "mods/jei-1.21.1-neoforge-19.27.0.336.jar"
-      ]
-    },
-    {
-      "name": "Jade — подсказка, на что смотришь",
-      "files": [
-        "mods/Jade-1.21.1-NeoForge-15.10.6.jar"
-      ]
-    },
-    {
-      "name": "AppleSkin — сытость еды",
-      "files": [
-        "mods/appleskin-neoforge-mc1.21-3.0.9.jar"
-      ]
-    },
-    {
-      "name": "Dynamic Surroundings — звуки окружения",
-      "files": [
-        "mods/dynamicsurroundings-neoforge-1.21.1-0.4.2.jar"
-      ]
-    },
-    {
-      "name": "Sound Physics — эхо и звук через стены",
-      "files": [
-        "mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar"
-      ]
-    },
-    {
-      "name": "Presence Footsteps — звуки шагов",
-      "files": [
-        "mods/PresenceFootsteps-1.21.1-1.12.0-beta.1-1.21NeoForge.jar",
-        "mods/pfsable-1.0.jar"
-      ]
-    },
-    {
       "name": "Particular — дополнительные частицы",
       "files": [
         "mods/particular-1.21.1-NeoForge-1.5.5.jar"
-      ]
-    },
-    {
-      "name": "Stellar View — красивое небо",
-      "files": [
-        "mods/Stellar View-1.21.1-0.5.2-NeoForge.jar"
       ]
     },
     {
@@ -766,12 +705,6 @@
       "name": "Mouse Tweaks — удобная мышь в инвентаре",
       "files": [
         "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
-      ]
-    },
-    {
-      "name": "Epic Death Screen — экран смерти",
-      "files": [
-        "mods/epicdeathscreen-neoforge-1.21.1-1.0.0.jar"
       ]
     },
     {
